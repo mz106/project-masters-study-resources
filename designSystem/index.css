@@ -1,0 +1,54 @@
+
+.container-flex {
+    display: flex;
+}
+
+* {
+    font-family: 'gilroy';
+}
+
+.wrapper {
+    width: 80%;
+    margin: 10vh auto;
+    justify-content: center;
+}
+
+.container-colours,
+.container-fonts,
+.background-colours,
+.font-colours,
+.container-fonts {
+    flex-direction: column;
+}
+
+.background-main-colour {
+    background-color: rgb(68, 68, 68);
+}
+
+.background-text-colour {
+    background-color: rgb(205, 204, 204);
+}
+
+.font-text-colour {
+    color: rgb(68, 68, 68);
+    background-color: rgb(241, 237, 237);
+}
+
+.font-heading-colour {
+    color: rgb(205, 204, 204);
+    background-color: #4c4d4e;
+}
+
+.font-link-colour {
+    color: rgb(245, 179, 47);
+    background-color: #4c4d4e;
+}
+
+.container-fonts {
+    border: 2px solid blue;
+}
+
+.gilroy-extrabold {
+    font-weight: bold;
+}
+
